@@ -3,6 +3,7 @@ from django.http import HttpResponse,Http404,HttpResponseRedirect
 from django.shortcuts import render,redirect
 from .models import *
 from .forms import *
+from .email import *
 
 
 # Create your views here.
@@ -20,6 +21,7 @@ def news_today(request):
             email=form.cleaned_data['email']
             recipient = NewsLetterRecipients(name=name, email=email)
             recipient.save()
+            send_welcome_email(name,email)
             HttpResponseRedirect('news_today')
 
     else:
