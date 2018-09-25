@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3aaa402-a144-42d7-9bcb-9a266ce40090" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/all-news/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/templates/all-news/todays-news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/todays-news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribune/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="9" />
+          <entry key="html" value="10" />
           <entry key="py" value="11" />
           <entry key="txt" value="1" />
         </counts>
@@ -32,7 +33,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="11" />
         </counts>
@@ -40,15 +41,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="15" />
-          <entry key="html" value="456" />
-          <entry key="py" value="3914" />
+          <entry key="html" value="462" />
+          <entry key="py" value="4096" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="15" />
-          <entry key="HTML" value="456" />
-          <entry key="Python" value="3914" />
+          <entry key="HTML" value="462" />
+          <entry key="Python" value="4096" />
         </counts>
       </usages-collector>
     </session>
@@ -58,12 +59,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="148">
+              <caret line="32" column="68" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="68" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1537863612946" expanded="true" signature="403:408" ph="..." />
-                <marker date="1537863612946" expanded="true" signature="604:1291" ph="..." />
+                <marker date="1537864701064" expanded="true" signature="403:408" ph="..." />
+                <marker date="1537864701064" expanded="true" signature="604:1291" ph="..." />
               </folding>
             </state>
           </provider>
@@ -72,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tribune/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="776">
               <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
             </state>
           </provider>
@@ -81,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+            <state relative-caret-position="135">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -93,14 +94,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="281">
+              <caret line="58" column="71" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1537862649756" expanded="true" signature="183:226" ph="..." />
-                <marker date="1537862649756" expanded="true" signature="424:431" ph="..." />
-                <marker date="1537862649756" expanded="true" signature="1200:1659" ph="..." />
+                <marker date="1537865226621" expanded="true" signature="183:226" ph="..." />
+                <marker date="1537865226621" expanded="true" signature="424:431" ph="..." />
+                <marker date="1537865226621" expanded="true" signature="1691:1878" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/templates/all-news/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -108,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/templates/all-news/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="360">
               <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
@@ -117,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/templates/all-news/todays-news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="15">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -135,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="45">
+              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -148,19 +158,6 @@
               <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1537800508574" expanded="true" signature="123:159" ph="..." />
               </folding>
             </state>
           </provider>
@@ -183,11 +180,12 @@
         <option value="$PROJECT_DIR$/news/tests.py" />
         <option value="$PROJECT_DIR$/news/templates/all-news/today-news.html" />
         <option value="$PROJECT_DIR$/news/templates/navbar.html" />
-        <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/news/templates/all-news/search.html" />
-        <option value="$PROJECT_DIR$/news/models.py" />
         <option value="$PROJECT_DIR$/tribune/settings.py" />
+        <option value="$PROJECT_DIR$/news/models.py" />
         <option value="$PROJECT_DIR$/news/urls.py" />
+        <option value="$PROJECT_DIR$/news/views.py" />
+        <option value="$PROJECT_DIR$/news/templates/all-news/article.html" />
         <option value="$PROJECT_DIR$/news/templates/all-news/todays-news.html" />
       </list>
     </option>
@@ -195,7 +193,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="658" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,13 +269,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="658" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18374558" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.59229535" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -352,33 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1537862649756" expanded="true" signature="183:226" ph="..." />
-            <marker date="1537862649756" expanded="true" signature="424:431" ph="..." />
-            <marker date="1537862649756" expanded="true" signature="1200:1659" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/templates/all-news/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/templates/all-news/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -388,27 +359,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="148">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="68" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1537863612946" expanded="true" signature="403:408" ph="..." />
-            <marker date="1537863612946" expanded="true" signature="604:1291" ph="..." />
+            <marker date="1537864701064" expanded="true" signature="403:408" ph="..." />
+            <marker date="1537864701064" expanded="true" signature="604:1291" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/templates/all-news/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tribune/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="776">
           <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="58" column="71" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1537865226621" expanded="true" signature="183:226" ph="..." />
+            <marker date="1537865226621" expanded="true" signature="424:431" ph="..." />
+            <marker date="1537865226621" expanded="true" signature="1691:1878" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/templates/all-news/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -417,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/templates/all-news/todays-news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="15">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
