@@ -25,7 +25,7 @@ SECRET_KEY = 'ju6d%$!cai#fn^e(9-8=@@#hxq0$(d^(7xu9l$(n!kna0hx!^v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = 'cherucole-tribune.herokuapp.com'
+ALLOWED_HOSTS = []
 
 
 # Application definition
