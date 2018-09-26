@@ -1,3 +1,6 @@
+from django.contrib.auth.decorators import login_required
+from .forms import *
+
 import datetime as dt
 from django.http import HttpResponse,Http404,HttpResponseRedirect
 from django.shortcuts import render,redirect
@@ -57,11 +60,28 @@ def search_results(request):
         message = "You haven't searched for any term"
         return render(request, 'all-news/search.html',{"message":message})
 
+
+@login_required(login_url='/accounts/login/')
 def article(request, article_id):
     try:
         article = Article.objects.get(id=article_id)
     except DoesNotExist:
         raise Http404()
     return render(request, 'all-news/article.html', {'article':article, 'article_id':article.id})
+
+
+@login_required(login_url='/accounts/login/')
+def new_article(request):
+    current_user = request.user
+    if request.method =='POST':
+        form = NewAricleForm(request.POST, request.FILES)
+        if form.is_valid():
+            article=form.save(commit=False)
+            article.editor = current_user
+            article.save()
+        return redirect('newsToday')
+    else:
+        form = NewAricleForm()
+    return render(request, 'new_article.html', {"form": form})
 
 
