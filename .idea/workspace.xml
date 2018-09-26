@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3aaa402-a144-42d7-9bcb-9a266ce40090" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/news/templates/all-news/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/new_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/new_article.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
           <entry key="css" value="15" />
           <entry key="env" value="41" />
           <entry key="gitignore" value="4" />
-          <entry key="html" value="616" />
+          <entry key="html" value="636" />
           <entry key="py" value="5437" />
           <entry key="txt" value="4" />
         </counts>
@@ -52,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="15" />
-          <entry key="HTML" value="616" />
+          <entry key="HTML" value="636" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="Python" value="5437" />
         </counts>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/templates/new_article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="139">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -126,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/templates/all-news/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="109">
               <caret line="22" column="71" lean-forward="true" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
             </state>
           </provider>
@@ -212,10 +212,10 @@
         <option value="$PROJECT_DIR$/tribune/urls.py" />
         <option value="$PROJECT_DIR$/news/forms.py" />
         <option value="$PROJECT_DIR$/news/urls.py" />
-        <option value="$PROJECT_DIR$/news/templates/new_article.html" />
         <option value="$PROJECT_DIR$/news/templates/navbar.html" />
         <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/news/templates/all-news/article.html" />
+        <option value="$PROJECT_DIR$/news/templates/new_article.html" />
       </list>
     </option>
   </component>
@@ -316,9 +316,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.36594912" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.36594912" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -515,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/templates/new_article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-145">
@@ -563,8 +556,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/templates/all-news/article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="109">
           <caret line="22" column="71" lean-forward="true" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/templates/new_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
         </state>
       </provider>
     </entry>
