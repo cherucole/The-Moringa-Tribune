@@ -1,6 +1,7 @@
 from django.contrib.auth.decorators import login_required
-from .forms import *
-
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from .serializer import MerchSerializer
 import datetime as dt
 from django.http import HttpResponse,Http404,HttpResponseRedirect, JsonResponse
 from django.shortcuts import render,redirect
@@ -95,3 +96,8 @@ def new_article(request):
     return render(request, 'new_article.html', {"form": form})
 
 
+class MerchList(APIView):
+    def get(self, request, format=None):
+        all_merch = MoringaMerch.objects.all()
+        serializers = MerchSerializer(all_merch, many=True)
+        return Response(serializers.data)

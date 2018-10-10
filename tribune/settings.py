@@ -66,6 +66,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'news',
+    'rest_framework',
     'tinymce',
     'bootstrap3',
     'django.contrib.admin',
